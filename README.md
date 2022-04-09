@@ -1,6 +1,14 @@
-# ApiMarvelAngular
+# Api Marvel Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.4.
+
+## Technologies
+
+- Angular CLI 10.2.4
+- NodeJs
+- Angular Material
+- Angular FlexLayout
+- Public api Marvel
 
 ## Development server
 
