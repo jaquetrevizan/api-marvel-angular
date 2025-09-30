@@ -1,35 +1,82 @@
-# Api Marvel Angular
+<h1 align="center"> API Marvel Angular</h1>
+<p align="center">Aplicação Angular para consumir a API da Marvel e listar personagens em tempo real.</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.4.
+---
 
-## Technologies
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-10-DD0031?logo=angular" alt="Angular">
+  <img src="https://img.shields.io/badge/RxJS-6.6-purple?logo=reactivex" alt="RxJS">
+  <img src="https://img.shields.io/badge/Material-UI-blue?logo=angular" alt="Angular Material">
+</p>
 
-- Angular CLI 10.2.4
-- NodeJs
-- Angular Material
-- Angular FlexLayout
-- Public api Marvel
+---
 
-## Development server
+## Objetivo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este projeto foi desenvolvido como estudo prático de **consumo de APIs externas em Angular**, explorando:
+- Integração com a **API da Marvel**.
+- Organização de componentes e serviços.
+- Uso de **RxJS** para lidar com requisições assíncronas.
+- Interface com **Angular Material** e **Flex Layout**.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Listagem de personagens da API da Marvel.  
+- Renderização dinâmica com **Observables**.  
+- Estrutura modular com `CharactersComponent` e `CharactersApiService`.  
+- Navbar simples para navegação entre seções.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+---
 
-## Running unit tests
+## Tecnologias Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Angular 10](https://angular.io/) — Framework frontend.  
+- [RxJS](https://rxjs.dev/) — Programação reativa para lidar com streams de dados.  
+- [Angular Material](https://material.angular.io/) — UI Components.  
+- [Flex Layout](https://github.com/angular/flex-layout) — Layout responsivo.  
+- [TypeScript](https://www.typescriptlang.org/) — Linguagem base.  
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Instalação e Execução
 
-## Further help
+Para rodar este projeto localmente, siga os passos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Clone o repositório
+git clone https://github.com/jaquelinetrevizan/api-marvel-angular.git
+
+# Acesse o diretório do projeto
+cd api-marvel-angular
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+ng serve
+````
+
+A aplicação ficará disponível em `http://localhost:4200/`.
+
+> Este projeto requer uma chave da **API da Marvel**.
+> Crie uma conta em [developer.marvel.com](https://developer.marvel.com/) e adicione sua chave em `characters-api.service.ts`.
+
+---
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto, trabalhei com:
+
+* Consumo de API REST externa no Angular.
+* Boas práticas de componentização.
+* Programação reativa com **RxJS**.
+* UI responsiva com Angular Material e Flex Layout.
+
+---
+
+## Dúvidas & Sugestões
+
+- Se tiver alguma ideia para melhorar este projeto ou encontrar algum problema, fique à vontade para abrir uma issue aqui no repositório.
+- Para dúvidas mais diretas, você também pode me escrever em: trevizan.jaqueline@gmail.com.
