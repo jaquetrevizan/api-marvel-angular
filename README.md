@@ -46,7 +46,7 @@ Para rodar este projeto localmente, siga os passos:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/jaquelinetrevizan/api-marvel-angular.git
+git clone https://github.com/jaquetrevizan/api-marvel-angular.git
 
 # Acesse o diretório do projeto
 cd api-marvel-angular
